@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import { parseExpression } from "cron-parser";
 import { useEffect, useState } from "react";
-import { timeInHoursMinutesSeconds } from "./utils";
+import { timeInHoursMinutesSeconds } from "../utils";
 
 export default function Home() {
   const [time, setTime] = useState(0);
