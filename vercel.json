@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/dailyQuote/${SECRET_KEY}",
+      "schedule": "${NEXT_PUBLIC_JOB_TIME}"
+    }
+  ]
+}
